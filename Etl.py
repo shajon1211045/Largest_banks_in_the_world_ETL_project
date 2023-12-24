@@ -64,11 +64,10 @@ csv_path = './Largest_banks_data.csv'
  
 df = extract(url, table_attribs)
 
-'''log_progress('Data Extraction completed. Data Transformation has started...')'''
+log_progress('Data Extraction completed. Data Transformation has started...')
 
 df = transform(df)
-print(df)
-'''log_progress('Data transformation completed. Data loading process has started...')
+log_progress('Data transformation completed. Data loading process has started...')
 
 load_to_csv(df, csv_path)
 log_progress('Data saved to csv file.')
@@ -90,4 +89,4 @@ log_progress('Second query ran. Running the third query...')
 run_query(query_statement_3, sql_connection)
 log_progress('Third query ran. Closing the database connection...')
 sql_connection.close()
-log_progress('ETL process completed.')'''
+log_progress('ETL process completed.')
