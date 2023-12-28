@@ -22,7 +22,9 @@ pip install pandas numpy beautifulsoup4
 ## Usage  
 ### Clone the repository  
 ```
-git clone https://github.com/shajon1211045/Largest_banks_in_the_world_ETL_project.git      
+git clone https://github.com/shajon1211045/Largest_banks_in_the_world_ETL_project.git
+```
+```   
 cd Largest_banks_in_the_world_ETL_project  
 ```
 ### Run the ETL script  
